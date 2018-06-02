@@ -17,11 +17,11 @@ cd select-to-translate
 npm install --dev
 npm run build
 ```
-+ Go to chrome *menu > More tools > Extensions*.
-+ Click on *Load unpacked extension...*.
-+ Open the *dist/* repository.
-+ *And then !*
++ Go to chrome **menu > More tools > Extensions**.
++ Click on **Load unpacked extension...**.
++ Open the **dist/** directory.
++ **And then !**
 
 ## Todo
-[checkbox:unchecked] Publish chrome extension on Chrome Store.
-[checkbox:unchecked] Add language select.
+# [checkbox:unchecked] Publish chrome extension on Chrome Store.
+# [checkbox:unchecked] Add language select.
