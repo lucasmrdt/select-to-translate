@@ -23,5 +23,5 @@ npm run build
 + **And then !**
 
 ## Todo
-# [checkbox:unchecked] Publish chrome extension on Chrome Store.
-# [checkbox:unchecked] Add language select.
+- [] Publish chrome extension on Chrome Store.
+- [] Add language select.
