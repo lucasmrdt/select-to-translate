@@ -4,7 +4,7 @@ import { API_KEY } from '../constants'
 const COMPONENT_ID = 'select-to-translate'
 const VISIBLE_CLASS = 'show-translate'
 const NON_VISIBLE_CLASS = 'hide-translate'
-const TIMEOUT_VISIBLE = 10000 //ms
+const TIMEOUT_VISIBLE = 3000 //ms
 
 export default class Translate {
 	constructor() {
