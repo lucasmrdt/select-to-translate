@@ -1,0 +1,22 @@
+{
+  "name": "select-to-translate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "contentscript.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dev-dependencies": {
+    "@babel/core": "^7.0.0-beta.49",
+    "@babel/preset-env": "^7.0.0-beta.49",
+    "babel-loader": "^8.0.0-beta.3",
+    "translate": "^1.0.2",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.0",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
