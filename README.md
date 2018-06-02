@@ -23,5 +23,5 @@ npm run build
 + **And then !**
 
 ## Todo
-- [] Publish chrome extension on Chrome Store.
-- [] Add language select.
+- [ ] Publish chrome extension on Chrome Store.
+- [ ] Add language select.
