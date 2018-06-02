@@ -1,5 +1,7 @@
 import Translate from './components/Translate'
 
+const MAX_NB_WORDS = 5
+
 const translateComponent = new Translate()
 const translateOptions = {
 	from: 'en',
@@ -10,11 +12,11 @@ let previousSelection = ''
 
 document.addEventListener('mouseup', () => {
 	const selectedText = document.getSelection().toString()
+	const nbWords = selectedText.split(' ').length
 
 	if (selectedText === ''
-	|| selectedText === null
-	|| selectedText === previousSelection) {
-		// there is no selections or user has unselect text.
+	|| selectedText === previousSelection
+	|| nbWords > MAX_NB_WORDS) {
 		previousSelection = ''
 		translateComponent.hide()
 		return
